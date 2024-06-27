@@ -1,0 +1,373 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon May  6 11:01:36 2024
+# Process ID: 17552
+# Current directory: C:/Users/rashe/Desktop/testCNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12184 C:\Users\rashe\Desktop\testCNN\testCNN.xpr
+# Log file: C:/Users/rashe/Desktop/testCNN/vivado.log
+# Journal file: C:/Users/rashe/Desktop/testCNN\vivado.jou
+# Running On: DESKTOP-S0VN074, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 10, Host memory: 34029 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rashe/Desktop/testCNN/testCNN.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/rashe/Desktop/ip_repo'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/rashe/Desktop/ip_repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_dmaCNN_0_0
+design_1_topCNN_0_0
+
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 2555.375 ; gain = 480.898
+update_compile_order -fileset sources_1
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd
+
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xczu9eg-ffvb1156-2-e
+Top: design_1_wrapper
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 3887.680 ; gain = 343.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:22]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1735' bound to instance 'design_1_i' of component 'design_1' [C:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1746]
+WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1874]
+INFO: [Synth 8-3491] module 'design_1_axi_dma_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_dma_0_0_stub.vhdl:6' bound to instance 'axi_dma_0' of component 'design_1_axi_dma_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2148]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_dma_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_dma_0_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'design_1_axi_smc_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_smc_0_stub.vhdl:6' bound to instance 'axi_smc' of component 'design_1_axi_smc_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2190]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_smc_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_smc_0_stub.vhdl:44]
+INFO: [Synth 8-3491] module 'design_1_dmaCNN_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_dmaCNN_0_0_stub.vhdl:6' bound to instance 'dmaCNN_0' of component 'design_1_dmaCNN_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2225]
+INFO: [Synth 8-638] synthesizing module 'design_1_dmaCNN_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_dmaCNN_0_0_stub.vhdl:24]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps8_0_axi_periph_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1216]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_QJIMLI' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_QJIMLI' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:56]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1A7ZMW4' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:176]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_0_stub.vhdl:6' bound to instance 'auto_ds' of component 'design_1_auto_ds_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:469]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_0_stub.vhdl:88]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:548]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_0_stub.vhdl:68]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1A7ZMW4' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:176]
+INFO: [Synth 8-638] synthesizing module 's01_couplers_imp_KGUFR9' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:677]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_1' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_1_stub.vhdl:6' bound to instance 'auto_ds' of component 'design_1_auto_ds_1' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:970]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_1' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_1_stub.vhdl:88]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_1' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_1_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_1' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1049]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_1' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_1_stub.vhdl:68]
+INFO: [Synth 8-256] done synthesizing module 's01_couplers_imp_KGUFR9' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:677]
+INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'design_1_xbar_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1668]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_xbar_0_stub.vhdl:52]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps8_0_axi_periph_0' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1216]
+INFO: [Synth 8-3491] module 'design_1_rst_ps8_0_99M_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_rst_ps8_0_99M_0_stub.vhdl:6' bound to instance 'rst_ps8_0_99M' of component 'design_1_rst_ps8_0_99M_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps8_0_99M_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_rst_ps8_0_99M_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'design_1_topCNN_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_topCNN_0_0_stub.vhdl:6' bound to instance 'topCNN_0' of component 'design_1_topCNN_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2354]
+INFO: [Synth 8-638] synthesizing module 'design_1_topCNN_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_topCNN_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_zynq_ultra_ps_e_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:6' bound to instance 'zynq_ultra_ps_e_0' of component 'design_1_zynq_ultra_ps_e_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2366]
+INFO: [Synth 8-638] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:135]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1746]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [C:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:22]
+WARNING: [Synth 8-7129] Port M_ACLK in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 4018.301 ; gain = 474.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 4018.301 ; gain = 474.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 4018.301 ; gain = 474.230
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.dcp' for cell 'design_1_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0.dcp' for cell 'design_1_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_dmaCNN_0_0/design_1_dmaCNN_0_0.dcp' for cell 'design_1_i/dmaCNN_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.dcp' for cell 'design_1_i/rst_ps8_0_99M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_topCNN_0_0/design_1_topCNN_0_0.dcp' for cell 'design_1_i/topCNN_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.dcp' for cell 'design_1_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1.dcp' for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp' for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.382 . Memory (MB): peak = 4037.715 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/U0'
+create_clock: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 4164.852 ; gain = 48.125
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 17 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 4164.852 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 30 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 24 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 4481.902 ; gain = 937.832
+56 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:35 . Memory (MB): peak = 4481.902 ; gain = 1906.484
+open_bd_design {C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:user:dmaCNN:1.0 - dmaCNN_0
+Adding component instance block -- xilinx.com:user:topCNN:1.0 - topCNN_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps8_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_99M
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP0/HPC0_DDR_HIGH from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP0/HPC0_LPS_OCM from address space /axi_dma_0/Data_MM2S.
+Successfully read diagram <design_1> from block design file <C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 4575.324 ; gain = 22.918
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xczu9eg-ffvb1156-2-e
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.dcp' for cell 'design_1_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0.dcp' for cell 'design_1_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_dmaCNN_0_0/design_1_dmaCNN_0_0.dcp' for cell 'design_1_i/dmaCNN_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.dcp' for cell 'design_1_i/rst_ps8_0_99M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_topCNN_0_0/design_1_topCNN_0_0.dcp' for cell 'design_1_i/topCNN_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.dcp' for cell 'design_1_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1.dcp' for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp' for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.276 . Memory (MB): peak = 4575.324 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc:56]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst'
+INFO: [Project 1-1714] 17 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 4575.324 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 30 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 24 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 5241.734 ; gain = 666.410
+close_design
+close_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 6849.250 ; gain = 809.145
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd
+
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xczu9eg-ffvb1156-2-e
+Top: design_1_wrapper
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 6849.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:22]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1735' bound to instance 'design_1_i' of component 'design_1' [C:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1746]
+WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1874]
+INFO: [Synth 8-3491] module 'design_1_axi_dma_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_dma_0_0_stub.vhdl:6' bound to instance 'axi_dma_0' of component 'design_1_axi_dma_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2148]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_dma_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_dma_0_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'design_1_axi_smc_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_smc_0_stub.vhdl:6' bound to instance 'axi_smc' of component 'design_1_axi_smc_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2190]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_smc_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_axi_smc_0_stub.vhdl:44]
+INFO: [Synth 8-3491] module 'design_1_dmaCNN_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_dmaCNN_0_0_stub.vhdl:6' bound to instance 'dmaCNN_0' of component 'design_1_dmaCNN_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2225]
+INFO: [Synth 8-638] synthesizing module 'design_1_dmaCNN_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_dmaCNN_0_0_stub.vhdl:24]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps8_0_axi_periph_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1216]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_QJIMLI' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_QJIMLI' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:56]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1A7ZMW4' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:176]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_0_stub.vhdl:6' bound to instance 'auto_ds' of component 'design_1_auto_ds_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:469]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_0_stub.vhdl:88]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:548]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_0_stub.vhdl:68]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1A7ZMW4' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:176]
+INFO: [Synth 8-638] synthesizing module 's01_couplers_imp_KGUFR9' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:677]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_1' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_1_stub.vhdl:6' bound to instance 'auto_ds' of component 'design_1_auto_ds_1' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:970]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_1' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_ds_1_stub.vhdl:88]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_1' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_1_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_1' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1049]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_1' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_auto_pc_1_stub.vhdl:68]
+INFO: [Synth 8-256] done synthesizing module 's01_couplers_imp_KGUFR9' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:677]
+INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'design_1_xbar_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1668]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_xbar_0_stub.vhdl:52]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps8_0_axi_periph_0' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1216]
+INFO: [Synth 8-3491] module 'design_1_rst_ps8_0_99M_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_rst_ps8_0_99M_0_stub.vhdl:6' bound to instance 'rst_ps8_0_99M' of component 'design_1_rst_ps8_0_99M_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps8_0_99M_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_rst_ps8_0_99M_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'design_1_topCNN_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_topCNN_0_0_stub.vhdl:6' bound to instance 'topCNN_0' of component 'design_1_topCNN_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2354]
+INFO: [Synth 8-638] synthesizing module 'design_1_topCNN_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_topCNN_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_zynq_ultra_ps_e_0_0' declared at 'C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:6' bound to instance 'zynq_ultra_ps_e_0' of component 'design_1_zynq_ultra_ps_e_0_0' [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:2366]
+INFO: [Synth 8-638] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [C:/Users/rashe/Desktop/testCNN/.Xil/Vivado-17552-DESKTOP-S0VN074/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:135]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/synth/design_1.vhd:1746]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [C:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:22]
+WARNING: [Synth 8-7129] Port M_ACLK in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 6849.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 6849.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 6849.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.dcp' for cell 'design_1_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0.dcp' for cell 'design_1_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_dmaCNN_0_0/design_1_dmaCNN_0_0.dcp' for cell 'design_1_i/dmaCNN_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.dcp' for cell 'design_1_i/rst_ps8_0_99M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_topCNN_0_0/design_1_topCNN_0_0.dcp' for cell 'design_1_i/topCNN_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.dcp' for cell 'design_1_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp' for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1.dcp' for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp' for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.304 . Memory (MB): peak = 6849.250 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/rashe/Desktop/testCNN/testCNN.gen/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 17 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 6849.250 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 30 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 24 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 7248.520 ; gain = 399.270
+55 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 7248.520 ; gain = 399.270
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  6 11:14:32 2024...

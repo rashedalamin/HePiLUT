@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri May 31 12:45:06 2024
+# Process ID: 10704
+# Current directory: C:/Users/rashe/Desktop/testCNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24032 C:\Users\rashe\Desktop\testCNN\testCNN.xpr
+# Log file: C:/Users/rashe/Desktop/testCNN/vivado.log
+# Journal file: C:/Users/rashe/Desktop/testCNN\vivado.jou
+# Running On: DESKTOP-S0VN074, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 10, Host memory: 34029 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rashe/Desktop/testCNN/testCNN.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd}
+regenerate_bd_layout
+open_bd_design {C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_nets dmaCNN_0_DATA_OUT_B]
+delete_bd_objs [get_bd_nets dmaCNN_0_DATA_OUT_G]
+regenerate_bd_layout
+set_property location {3 1072 -155} [get_bd_cells rst_ps8_0_99M]
+set_property location {3 1368 -223} [get_bd_cells ps8_0_axi_periph]
+set_property location {1 537 -180} [get_bd_cells rst_ps8_0_99M]
+set_property location {2 980 -245} [get_bd_cells ps8_0_axi_periph]
+set_property location {2.5 1428 -244} [get_bd_cells axi_dma_0]
+set_property location {3 1490 101} [get_bd_cells dmaCNN_0]
+set_property location {3.5 1791 0} [get_bd_cells topCNN_0]
+set_property location {1990 15} [get_bd_ports RESULT_CLASS_0]
+set_property location {2027 9} [get_bd_ports DATA_IN_READY_0]
+set_property location {2010 5} [get_bd_ports DATA_IN_READY_0]
+set_property location {4.5 2482 -1} [get_bd_cells topCNN_0]
+set_property location {3.5 2103 111} [get_bd_cells dmaCNN_0]
+set_property location {4 2053 -195} [get_bd_cells axi_dma_0]
+set_property location {2.5 1531 133} [get_bd_cells zynq_ultra_ps_e_0]
+set_property location {3 1643 -198} [get_bd_cells ps8_0_axi_periph]
+set_property location {1.5 996 109} [get_bd_cells axi_smc]
+set_property location {2 1001 -209} [get_bd_cells rst_ps8_0_99M]

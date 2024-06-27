@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri May 31 13:02:59 2024
+# Process ID: 26564
+# Current directory: C:/Users/rashe/Desktop/testCNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24100 C:\Users\rashe\Desktop\testCNN\testCNN.xpr
+# Log file: C:/Users/rashe/Desktop/testCNN/vivado.log
+# Journal file: C:/Users/rashe/Desktop/testCNN\vivado.jou
+# Running On: DESKTOP-S0VN074, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 10, Host memory: 34029 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rashe/Desktop/testCNN/testCNN.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/rashe/Desktop/testCNN/testCNN.srcs/sources_1/bd/design_1/design_1.bd}
+set_property location {6 2242 593} [get_bd_cells dmaCNN_0]
+set_property location {6 2085 214} [get_bd_cells axi_dma_0]
+set_property location {4.5 1761 258} [get_bd_cells ps8_0_axi_periph]
+set_property location {3.5 1540 615} [get_bd_cells zynq_ultra_ps_e_0]
+set_property location {6 2696 181} [get_bd_cells axi_dma_0]
+set_property location {5 2392 238} [get_bd_cells ps8_0_axi_periph]
+set_property location {3.5 1820 612} [get_bd_cells zynq_ultra_ps_e_0]
+set_property location {3 2001 208} [get_bd_cells axi_smc]
+set_property location {1.5 1520 227} [get_bd_cells rst_ps8_0_99M]
+set_property location {2 2034 397} [get_bd_cells axi_smc]
+set_property location {2 1837 169} [get_bd_cells rst_ps8_0_99M]
+delete_bd_objs [get_bd_nets dmaCNN_0_DATA_OUT_G]
+delete_bd_objs [get_bd_nets dmaCNN_0_DATA_OUT_B]
+write_bd_layout -format pdf -orientation portrait C:/Users/rashe/Desktop/design_10.pdf

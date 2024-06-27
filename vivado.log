@@ -1,0 +1,345 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri May 31 13:14:23 2024
+# Process ID: 13232
+# Current directory: C:/Users/rashe/Desktop/testCNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13696 C:\Users\rashe\Desktop\testCNN\testCNN.xpr
+# Log file: C:/Users/rashe/Desktop/testCNN/vivado.log
+# Journal file: C:/Users/rashe/Desktop/testCNN\vivado.jou
+# Running On: DESKTOP-S0VN074, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 10, Host memory: 34029 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rashe/Desktop/testCNN/testCNN.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/rashe/Desktop/ip_repo'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/rashe/Desktop/ip_repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_dmaCNN_0_0
+design_1_topCNN_0_0
+
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 2545.492 ; gain = 455.500
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'design_1_wrapper'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rashe/Desktop/testCNN/testCNN.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/rashe/Desktop/testCNN/testCNN.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'design_1_wrapper' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/rashe/Desktop/testCNN/testCNN.sim/sim_1/behav/xsim/sc_xtlm_design_1_axi_smc_0.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rashe/Desktop/testCNN/testCNN.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_14 -L smartconnect_v1_0 -L zynq_ultra_ps_e_vip_v1_0_14 -L xilinx_vip -prj design_1_wrapper_vlog.prj"
+"xvhdl --incr --relax -prj design_1_wrapper_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rashe/Desktop/testCNN/testCNN.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_14 -L zynq_ultra_ps_e_vip_v1_0_14 -L lib_pkg_v1_0_2 -L fifo_generator_v13_2_8 -L lib_fifo_v1_0_17 -L lib_srl_fifo_v1_0_2 -L lib_cdc_v1_0_2 -L axi_datamover_v5_1_30 -L axi_sg_v4_1_16 -L axi_dma_v7_1_29 -L generic_baseblocks_v2_1_0 -L axi_register_slice_v2_1_28 -L axi_data_fifo_v2_1_27 -L axi_crossbar_v2_1_29 -L axi_protocol_converter_v2_1_28 -L axi_clock_converter_v2_1_27 -L blk_mem_gen_v8_4_6 -L axi_dwidth_converter_v2_1_28 -L proc_sys_reset_v5_0_13 -L xlconstant_v1_1_7 -L smartconnect_v1_0 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_14 -L zynq_ultra_ps_e_vip_v1_0_14 -L lib_pkg_v1_0_2 -L fifo_generator_v13_2_8 -L lib_fifo_v1_0_17 -L lib_srl_fifo_v1_0_2 -L lib_cdc_v1_0_2 -L axi_datamover_v5_1_30 -L axi_sg_v4_1_16 -L axi_dma_v7_1_29 -L generic_baseblocks_v2_1_0 -L axi_register_slice_v2_1_28 -L axi_data_fifo_v2_1_27 -L axi_crossbar_v2_1_29 -L axi_protocol_converter_v2_1_28 -L axi_clock_converter_v2_1_27 -L blk_mem_gen_v8_4_6 -L axi_dwidth_converter_v2_1_28 -L proc_sys_reset_v5_0_13 -L xlconstant_v1_1_7 -L smartconnect_v1_0 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9180] module 'xpm_fifo_reg_bit' is instantiated multiple times from VHDL or from both Verilog and VHDL; elaboration result may be incorrect [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1907]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'MAXIGP2BID' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:491]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'MAXIGP2RID' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:492]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'MAXIGP2RDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:495]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'SAXIGP0RACOUNT' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:500]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'SAXIGP0WACOUNT' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:501]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'SAXIGP0RCOUNT' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:502]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'SAXIGP0WCOUNT' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:503]
+WARNING: [VRFC 10-3091] actual bit length 49 differs from formal bit length 40 for port 'SAXIGP0ARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:529]
+WARNING: [VRFC 10-3091] actual bit length 49 differs from formal bit length 40 for port 'SAXIGP0AWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:530]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP1ARLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:567]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP1AWLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:570]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP1ARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:574]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP1AWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:575]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP1WDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:576]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP1ARLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:578]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP1AWLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:581]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP1WSTRB' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:583]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP2ARLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:612]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP2AWLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:615]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP2ARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:619]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP2AWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:620]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP2WDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:621]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP2ARLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:623]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP2AWLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:626]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP2WSTRB' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:628]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP3ARLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:657]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP3AWLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:660]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP3ARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:664]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP3AWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:665]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP3WDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:666]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP3ARLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:668]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP3AWLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:671]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP3WSTRB' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:673]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP4ARLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:702]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP4AWLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:705]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP4ARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:709]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP4AWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:710]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP4WDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:711]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP4ARLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:713]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP4AWLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:716]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP4WSTRB' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:718]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP5ARLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:747]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP5AWLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:750]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP5ARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:754]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP5AWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:755]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP5WDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:756]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP5ARLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:758]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP5AWLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:761]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP5WSTRB' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:763]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP6ARLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:792]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP6AWLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:795]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP6ARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:799]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP6AWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:800]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP6WDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:801]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP6ARLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:803]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP6AWLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:806]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP6WSTRB' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:808]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 5 for port 'SAXIACPARID' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:829]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 5 for port 'SAXIACPAWID' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:831]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIACPARADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:833]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIACPAWADDR' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:834]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIACPARLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:836]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIACPAWLEN' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:839]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIACPARLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:842]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIACPAWLOCK' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:845]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 2 for port 'SAXIACPARUSER' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:847]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 2 for port 'SAXIACPAWUSER' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:848]
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 128 for port 'SAXIACPWDATA' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:849]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'SAXIACPWSTRB' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:850]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'PLPSIRQ0' [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:916]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_acp.sv:71]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_acp.sv:72]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_acp.sv:74]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_awuser' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6300]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 's_axi_wid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6303]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_aruser' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6325]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 5 for port 'm_axi_bid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6355]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 5 for port 'm_axi_rid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6373]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'm_axi_rdata' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6374]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'S_RRESP' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_ace.sv:64]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'S_AWUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_ace.sv:73]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'S_ARUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_ace.sv:76]
+WARNING: [VRFC 10-3091] actual bit length 15 differs from formal bit length 1 for port 's_axi_awuser' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4835]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 6 for port 's_axi_wid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4838]
+WARNING: [VRFC 10-3091] actual bit length 15 differs from formal bit length 1 for port 's_axi_aruser' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4860]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_bid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4890]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_rid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4908]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'm_axi_rdata' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4909]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:72]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:73]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:75]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:166]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:167]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:169]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:260]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:261]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:263]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:354]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:355]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:357]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:448]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:449]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:451]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:542]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:543]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:545]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:636]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:637]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:639]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_AWUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:733]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_BUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:735]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_ARUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:736]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_RUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:737]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 's_axi_awid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7822]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 's_axi_awaddr' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7823]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 's_axi_awlen' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7824]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_awlock' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7827]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 's_axi_wid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7835]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 's_axi_wdata' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7836]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 's_axi_wstrb' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7837]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 's_axi_arid' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7847]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 's_axi_araddr' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7848]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 's_axi_arlen' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7849]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_arlock' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7852]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_AWUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:804]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_BUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:806]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_ARUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:807]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_RUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:808]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 32 for port 'M_WDATA' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:842]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 4 for port 'M_WSTRB' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:843]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 32 for port 'M_RDATA' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:865]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_AWUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:875]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_BUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:877]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_ARUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:878]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_RUSER' [/scratch/proj/xbuilds/SWIP/2023.1_0507_1903/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_14_axi_gp.sv:879]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wr_qos' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3798]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'rd_qos' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3805]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wr_qos_1' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3818]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'rd_qos_1' [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3825]
+WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_axi_smc_0/bd_0/sim/bd_afc3.v:403]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/axi_protocol_converter_v2_1/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4376]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/axi_protocol_converter_v2_1/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4631]
+WARNING: [VRFC 10-5021] port 'PSS_ALTO_CORE_PAD_CLK' is not connected on this instance [C:/Users/rashe/Desktop/testCNN/testCNN.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:347]
+WARNING: [VRFC 10-3705] select index 2 into 'g7s_cc_rst_nsckt.arst_sync_wr' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_2/simulation/fifo_generator_vlog_beh.v:4830]
+WARNING: [VRFC 10-3705] select index 4096 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6968]
+WARNING: [VRFC 10-3705] select index 2 into 'wr_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7181]
+WARNING: [VRFC 10-3705] select index 3 into 'ar_cnt' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7320]
+WARNING: [VRFC 10-3705] select index 3 into 'wr_rresp_cnt' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7417]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_fifo_wr_ptr' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7436]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_cnt' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7577]
+WARNING: [VRFC 10-3705] select index 3 into 'rresp_time_cnt' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7582]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7587]
+WARNING: [VRFC 10-3705] select index 4096 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2023.1/sw/continuous/3753/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:5492]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 2587.891 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '20' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rashe/Desktop/testCNN/testCNN.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "design_1_wrapper_behav -key {Behavioral:sim_1:Functional:design_1_wrapper} -tclbatch {design_1_wrapper.tcl} -protoinst "protoinst_files/bd_afc3.protoinst" -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_afc3.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//m00_exit_pipeline/m00_exit/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//m00_exit_pipeline/m00_exit/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//m00_exit_pipeline/m_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//m00_exit_pipeline/s_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//m00_sc2axi/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_axi2sc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/m_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/s00_mmu/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/s00_mmu/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/s00_si_converter/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/s00_si_converter/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/s00_transaction_regulator/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/s00_transaction_regulator/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i/axi_smc/inst//s00_entry_pipeline/s_axi
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//axi_dma_0/M_AXIS_MM2S
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//axi_dma_0/M_AXI_MM2S
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//axi_dma_0/S_AXI_LITE
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//axi_smc/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//axi_smc/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//dmaCNN_0/s_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/S01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/m00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/m00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s00_couplers/auto_ds/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s00_couplers/auto_ds/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s00_couplers/auto_pc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s01_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s01_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s01_couplers/auto_ds/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s01_couplers/auto_ds/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s01_couplers/auto_pc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/s01_couplers/auto_pc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/xbar/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/xbar/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//ps8_0_axi_periph/xbar/S01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//zynq_ultra_ps_e_0/M_AXI_HPM0_FPD
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//zynq_ultra_ps_e_0/M_AXI_HPM1_FPD
+INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper/design_1_i//zynq_ultra_ps_e_0/S_AXI_HPC0_FPD
+WARNING: [Wavedata 42-559] Protocol instance "/design_1_wrapper/design_1_i//dmaCNN_0/s_axi" was created but is non-functional for the following reason(s):
+Required port "ACLK" is missing
+
+Time resolution is 1 ps
+source design_1_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_ACP.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_ACP : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_ACE.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_ACE : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HPC0_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP0 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HPC1_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HP0_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP2 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HP1_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP3 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HP2_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP4 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HP3_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP5 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HPM0_LPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP6 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM0_FPD.master
+[0] : *ZYNQ_MPSoC_BFM_INFO : M_AXI_GP0 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM1_FPD.master
+[0] : *ZYNQ_MPSoC_BFM_INFO : M_AXI_GP1 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM0_LPD.master
+[0] : *ZYNQ_MPSoC_BFM_INFO : M_AXI_GP2 : Port is DISABLED.
+WARNING: 5 ns design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM0_FPD.master.IF : ARESET_N can't be X/Z after 1 cycle of clock. To downgrade, use <hierarchy_path to VIP>.IF.set_enable_xchecks_to_warn(), or filter using clr_enable_xchecks.
+WARNING: 5 ns design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM1_FPD.master.IF : ARESET_N can't be X/Z after 1 cycle of clock. To downgrade, use <hierarchy_path to VIP>.IF.set_enable_xchecks_to_warn(), or filter using clr_enable_xchecks.
+WARNING: 5 ns design_1_wrapper.design_1_i.zynq_ultra_ps_e_0.inst.S_AXI_HPC0_FPD.slave.IF : ARESET_N can't be X/Z after 1 cycle of clock. To downgrade, use <hierarchy_path to VIP>.IF.set_enable_xchecks_to_warn(), or filter using clr_enable_xchecks.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'design_1_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.570 ; gain = 102.523
+update_compile_order -fileset sources_1
+close_sim
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 31 13:15:42 2024...
